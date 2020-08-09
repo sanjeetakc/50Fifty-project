@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_get_a_ride"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_get_a_ride" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/menu_notification" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history_foreground"
+            android:title="@string/menu_ride_history" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="@string/menu_help" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/menu_setting" />
+    </group>
+
+
+</menu>

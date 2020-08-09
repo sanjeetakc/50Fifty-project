@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_get_a_ride">
+
+    <fragment
+        android:id="@+id/nav_get_a_ride"
+        android:name="com.example.a50fifty.ui.setting.SettingFragment"
+        android:label="@string/menu_get_a_ride"
+        tools:layout="@layout/fragment_get_a_ride" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.example.a50fifty.ui.ride.RideFragment"
+        android:label="@string/menu_notification"
+        tools:layout="@layout/fragment_notification" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.a50fifty.ui.ridehistory.RideHistoryFragment"
+        android:label="@string/menu_ride_history"
+        tools:layout="@layout/fragment_ride_histroy" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.a50fifty.ui.help.HelpFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.a50fifty.ui.setting.SettingFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_settings"/>
+
+
+
+</navigation>
